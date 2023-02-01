@@ -14,6 +14,7 @@ public abstract class BaseEntity<ID>
         this.id = id;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
